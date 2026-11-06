@@ -24,7 +24,7 @@ Sign in and paste this prompt.
 
 ```text
 Read https://github.com/cocojen/mac-starter and follow its README to set up my Mac.
-Install Homebrew, Chrome, Rectangle, Obsidian, Notion, Slack, Telegram, Clipy,
+Install Homebrew, Chrome, Rectangle, Obsidian, Notion, Slack, Telegram, Clipy, Stats,
 Git, VS Code, GitHub CLI, Claude Code, Docker Desktop, AWS CLI, uv, and DBeaver.
 Skip existing installations.
 Explain each command briefly. Leave passwords, sign-ins, and permission
@@ -52,12 +52,13 @@ Omit apps you already have. Choose the developer tools you need.
 ### Everyday apps
 
 ```sh
-brew install --cask google-chrome rectangle obsidian notion slack telegram clipy
+brew install --cask google-chrome rectangle obsidian notion slack telegram clipy stats
 ```
 
 Chrome: browser. Rectangle: window management. Obsidian: Markdown notes.
 Notion: documents and collaborative workspaces. Slack: team communication.
 Telegram: messaging. Clipy: clipboard history.
+Stats: system monitoring in the menu bar.
 
 ### Development
 
@@ -86,6 +87,7 @@ Docker installation may request an administrator password. Alternatively, use th
 - **Slack:** open the app and sign in to your workspaces.
 - **Telegram:** open the app and sign in to your account.
 - **Clipy:** open the app and enable Accessibility permission when prompted for automatic pasting. Press `⌘⇧V` to open the clipboard menu.
+- **Stats:** open the app and choose which system monitors to show in the menu bar.
 - **GitHub CLI:** run `gh auth login`.
 - **Claude Code:** run `claude` from your project directory and complete sign-in when prompted.
 - **Docker:** open Docker Desktop, complete setup, then run `docker info`.
